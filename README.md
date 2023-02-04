@@ -1,4 +1,4 @@
-###Inspiration
+### Inspiration
 Young people have historically had lower turnouts and less government participation, despite having so much more to say. Gen Z and even future generations will be impacted the most by politics at all levels, so we wanted to help give them a voice.
 
 ###What it does

@@ -1,0 +1,18 @@
+<p>event-form works!</p>
+<form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+  <div class = "mb-2">
+    <label for="Event Name">Event Name</label>
+    <input name="name" class="form-control" placeholder = "event name" ngModel required #name="ngModel">
+  </div>
+  
+  <div class = "mb-2">
+    <label for="Event location">Event Location</label>
+    <input name="location" class="form-control" placeholder = "event location" ngModel required #name="ngModel">
+  </div>
+  
+  <div class = "mb-2">
+    <label for="Event Description">Event Description</label>
+    <div><textarea placeholder="Description" name = "text" ngModel required #name="ngModel"></textarea></div>
+  </div>
+  <button type="submit"  class="btn btn-primary">Submit</button> 
+</form>
